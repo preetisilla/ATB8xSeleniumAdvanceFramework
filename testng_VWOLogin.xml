@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Admin/IdeaProjects/ATB8xSeleniumAdvanceFramework">
+    <listeners>
+        <listener class-name="com.thetestingacademy.listeners.RetryListener"/>
+    </listeners>
     <classes>
-        <class name="com.thetestingacademy.tests.vwoTestCase.TestVWOLogin">
+        <class name="com.thetestingacademy.tests.vwoTestCase.PageFactorTestcases.TestVWOLogin_PF">
         </class>
     </classes>
 </test>
