@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static com.thetestingacademy.driver.DriverManager.getDriver;
+import static com.thetestingacademy.driver.DriverManagerTL.getDriver;
 
 public class CommonToAllPage {
 
